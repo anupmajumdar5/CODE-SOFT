@@ -1,0 +1,161 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    animation: slideInDown 1s ease;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #fff;
+}
+
+.about-img {
+    border-radius: 50%;
+    width: 150px;
+    margin-right: 2rem;
+    animation: fadeIn 1.5s ease;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+/* Skills Section */
+.skills {
+    background: #e6e6e6;
+    padding:2rem;
+    text-align: center;
+    animation: slideInUp 1s ease;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skills li {
+    background: #4a90e2;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.skills li:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.project {
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease;
+    transition: transform 0.3s;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Resume Section */
+.resume {
+    background: #e6e6e6;
+    padding: 2rem;
+    text-align: center;
+}
+
+.resume a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Animations */
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

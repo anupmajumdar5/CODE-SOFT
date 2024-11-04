@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 20px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info p {
+    margin-right: 15px;
+    display: inline;
+}
+
+.consult-button {
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.navbar-img img{
+    .img{
+        size: 2cap;
+    }
+}
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    animation: fadeIn 2s;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    animation: fadeIn 2.5s;
+}
+
+.hero p {
+    animation: fadeIn 3s;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.read-more {
+    background-color: #ff7e5f;
+}
+
+.consult {
+    background-color: #feb47b;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: #ffecd2;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.our-services {
+    padding: 40px 20px;
+    text-align: center;
+    background: #ffecd2;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.service-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.logo-img {
+    height: 50px;
+    width: auto;
+}
